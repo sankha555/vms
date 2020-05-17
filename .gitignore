@@ -103,7 +103,3 @@ local/
 # Documentation build
 _build
 
-# static files generated from Django application using `collectstatic`
-media
-static
-
