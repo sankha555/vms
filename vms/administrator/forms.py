@@ -43,6 +43,7 @@ class AdministratorForm(forms.ModelForm):
                     
         return False
 
+
     def check_duplication(self):
         data = self.cleaned_data['email']
         if data.count('@') != 1:     #Invalid Email Alert : Ideally the form should be reloaded and a valid email should be requested
